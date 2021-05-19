@@ -7,4 +7,4 @@
    - name: removing all old images
      shell: docker image rm -f $(docker image ls -a -q)
    - name: creating container 
-     shell: docker container run -d -p 8070:80 --name sasireddy 302600509576.dkr.ecr.us-east-2.amazonaws.com/sasireddy:latest
+     shell: docker container run -d -p 8070:80 --name sasireddy 302600509576.dkr.ecr.us-east-2.amazonaws.com/sasireddy
